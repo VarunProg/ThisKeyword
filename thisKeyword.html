@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // this keywoed in a method refers to the parent object
+      let user = {
+        firstName: "Varun",
+        lastName: "kumar",
+        getfullname: function () {
+          console.log(`${this.firstName} ${this.lastName}`);
+        },
+      };
+      user.getfullname();
+    </script>
+  </body>
+</html>
