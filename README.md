@@ -12,7 +12,8 @@ At the global level this keyword is equivalent to window object.\
 
 **this Alone**
 refers to the global object ***this===window***\
-**this is method** refers to the owner of it's object\
+\
+**this in method** refers to the owner of it's object\
 const user={\
   firstName:"Varun",\
   lastName:"Kumar",\
@@ -22,5 +23,7 @@ const user={\
 user.getFullName();\
 output= Varun Kumar\
 and this keyword will return a object
+
+**Note** arrow function has no this method.
 
 
