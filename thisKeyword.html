@@ -17,6 +17,16 @@
         },
       };
       user.getfullname();
+
+      // if we use arrow function in method then arrow function has no this returns undefined
+      let user = {
+        firstName: "Varun",
+        lastName: "kumar",
+        getfullname: () => {
+          console.log(`${this.firstName} ${this.lastName}`);
+        },
+      };
+      user.getfullname();
     </script>
   </body>
 </html>
