@@ -10,5 +10,17 @@ execution context it creates 2 properties in the global memory by default the wi
 At the global level this keyword is equivalent to window object.\
 ***this===window***
 
+**this Alone**
+refers to the global object ***this===window***\
+**this is method** refers to the owner of it's object\
+const user={\
+  firstName:"Varun",\
+  lastName:"Kumar",\
+  getFullName:function(){\
+  console.log(`${this.firstName} ${this.lastName}`,**this**);\
+}\
+user.getFullName();\
+output= Varun Kumar\
+and this keyword will return a object
 
 
