@@ -35,6 +35,14 @@
       }
       let res = demo();
       console.log(res);
+
+      // if we use let then let dont share global memory we get undefined
+      let a = 10;
+      function demo(params) {
+        return this.a;
+      }
+      let res = demo();
+      console.log(res);
     </script>
   </body>
 </html>
