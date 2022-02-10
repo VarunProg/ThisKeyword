@@ -1,7 +1,7 @@
 # ThisKeyword
 Whenever JS program is run a global object is created(window), global execution context is created along with that execution context and this keyword is created. Global obejct is created even before JS engine enters to the GEC(Global Execution Context) and what Global object contains it contains eventHandlers, history,ScrollX,Window object(in the case of browser), localStorage and more..
 \
-even if Js file is empty there is nothing to execute JS engine still creates Global Execution Context(GEC) in the case of browser it's window.
+even if Js file is empty there is nothing to execute JS engine still creates Global obect in the case of browser it's window.
 
 first Javascript engine loads the JS file and parses the code then it enters into Global Execution Context that is the default execution context where JavaScript engine enters first.
 
