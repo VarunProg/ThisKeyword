@@ -27,6 +27,14 @@
         },
       };
       user.getfullname();
+
+      // regular function calls this points to the global object
+      var a = 10;
+      function demo(params) {
+        return this.a;
+      }
+      let res = demo();
+      console.log(res);
     </script>
   </body>
 </html>
