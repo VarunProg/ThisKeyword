@@ -24,6 +24,6 @@ user.getFullName();\
 output= Varun Kumar\
 and this keyword will return a object
 
-**Note** arrow function has no this method.
+**Note** arrow function has no this keyword.
 
 
