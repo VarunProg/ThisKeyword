@@ -8,7 +8,7 @@ At the global level this keyword is equivalent to window object.\
 ***this===window***
 
 Now let's understand How code is executed?
-Global Execution Context is created and it is pushed into the callstack, Global Execution Context is like a big container where all code is executed it has 2 phases.
-1- Memory creation phase
+Global Execution Context is created and it is pushed into the callstack, Global Execution Context is like a big container where all code is executed it has 2 phases.\
+1- Memory creation phase\
 2- Code Execution phase
 
